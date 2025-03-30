@@ -18,14 +18,14 @@ This project is a clone of Hexnode, a leading Unified Endpoint Management (UEM) 
    ```sh
    git clone https://github.com/your-username/hexnode-clone.git
    cd hexnode-clone
-2. **Install Dependencies
+2. **Install Dependencies**
    ```sh
    npm install
-3. **Start the development server
+3. **Start the development server**
    ```sh
    npm run dev
-4. **Open in Browser: Visit http://localhost:5173/ (default Vite port) to see the application running.
+4. **Open in Browser: Visit http://localhost:5173/ (default Vite port) to see the application running.**
 
 ## Demo
 
-#### Visit the live website: [https://hash-crypt.onrender.com](https://hexnodeclone.onrender.com)
+#### Visit the live website: [https://hexnodeclone.onrender.com](https://hexnodeclone.onrender.com)

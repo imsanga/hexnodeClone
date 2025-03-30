@@ -28,4 +28,4 @@ This project is a clone of Hexnode, a leading Unified Endpoint Management (UEM) 
 
 ## Demo
 
-#### Visit the live website: [https://hash-crypt.onrender.com](https://hash-crypt.onrender.com)
+#### Visit the live website: [https://hash-crypt.onrender.com](https://hexnodeclone.onrender.com)

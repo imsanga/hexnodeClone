@@ -1,12 +1,31 @@
-# React + Vite
+# Hexnode Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a clone of Hexnode, a leading Unified Endpoint Management (UEM) solution. It allows users to manage devices of varying form factors and operating systems through a single platform.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React.js (initialized with Vite)
+- **State Management:** React Hooks
+- **Styling:** CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation & Setup
+### Prerequisites
+- Node.js (Latest LTS version recommended)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Steps to Run the Project
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/your-username/hexnode-clone.git
+   cd hexnode-clone
+2. **Install Dependencies
+   ```sh
+   npm install
+3. **Start the development server
+   ```sh
+   npm run dev
+4. **Open in Browser: Visit http://localhost:5173/ (default Vite port) to see the application running.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo
+
+#### Visit the live website: [https://hash-crypt.onrender.com](https://hash-crypt.onrender.com)

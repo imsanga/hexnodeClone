@@ -1,0 +1,30 @@
+.carousel-wrapper {
+  width: 70%;
+  margin: 50px auto 0px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #f8f9fa;
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  animation: moveCarousel 15s linear infinite;
+  width: calc(180px * 14);
+}
+
+.carousel-item {
+  width: 180px;
+  margin: 0 15px;
+  object-fit: contain;
+}
+
+@keyframes moveCarousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

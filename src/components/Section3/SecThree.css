@@ -1,0 +1,165 @@
+.kiosk-container {
+  max-width: 1300px;
+  margin: 100px auto 0px;
+  text-align: center;
+}
+
+.kiosk-container h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 70px;
+  color: #020a19;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.button-container button {
+  padding: 15px 20px;
+  border: 1px solid #0449d1;
+  border-radius: 20px;
+  color: #333333;
+  background-color: #f9f9f9;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-container .active {
+  background-color: #020a19;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.mode-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.mode-content ul {
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.mode-content ul li {
+  font-size: 1.125rem;
+  color: #333333;
+  margin: 10px 0;
+  line-height: 2;
+}
+
+.mode-content img {
+  width: 38%;
+  border-radius: 10px;
+}
+
+.mode-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mode-inner h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #020a19;
+}
+
+/*MR*/
+@media screen and (max-width: 1060px) {
+  .kiosk-container {
+    margin: 50px auto 0px;
+    padding: 10px;
+  }
+
+  .kiosk-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+
+  .button-container {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .button-container button {
+    font-size: 1.2rem;
+    padding: 12px 15px;
+    border-radius: 15px;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .mode-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mode-content ul {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .mode-content img {
+    width: 60%;
+    margin-top: 15px;
+  }
+
+  .mode-inner h2 {
+    font-size: 1.5rem;
+  }
+
+  .mode-content ul li {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kiosk-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container button {
+    width: 80%;
+    font-size: 1rem;
+    padding: 10px 12px;
+  }
+
+  .mode-content img {
+    width: 75%;
+  }
+
+  .mode-inner h2 {
+    font-size: 1.3rem;
+  }
+
+  .mode-content ul li {
+    font-size: 0.95rem;
+  }
+}
